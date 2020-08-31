@@ -1,0 +1,12 @@
+# Google drive OSX file
+Icon?
+
+# Google drive Windows file
+desktop.ini
+
+# OSX files
+.DS_Store
+._.DS_Store
+._*
+
+# Web Development related files
