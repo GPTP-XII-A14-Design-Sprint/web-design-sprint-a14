@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(243, 4, 136, 0.9);
+  background: #ed1260;
 }
 
 #header.header-transparent {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(248, 6, 139, 0.9);
+  background: #ed1260;
   height: 60px;
 }
 
@@ -898,7 +898,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #e91fc7;
+  color: #ed1260;
 }
 
 .features .icon-box:hover {
