@@ -1211,7 +1211,7 @@ section {
 }
 
 .pricing h4 {
-  font-size: 36px;
+  font-size: 28px;
   color: #1acc8d;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1219,7 +1219,7 @@ section {
 }
 
 .pricing h4 sup {
-  font-size: 20px;
+  font-size: px;
   top: -15px;
   left: -3px;
 }
@@ -1234,11 +1234,18 @@ section {
   padding: 0;
   list-style: none;
   color: #444444;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
   font-size: 14px;
 }
-
+.pricing ul supp {
+  padding: 0;
+  list-style: none;
+  color: #444444a8;
+  text-align: left;
+  line-height: 20px;
+  font-size: 10px;
+}
 .pricing ul li {
   padding-bottom: 16px;
 }
@@ -1262,7 +1269,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: #ec1292;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1276,12 +1283,12 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #149f6e;
+  background: #ff6cc2e1;
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1acc8d;
+  background: #ec1292;
 }
 
 .pricing .advanced {
@@ -1293,7 +1300,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1acc8d;
+  background: #ff0426d7;
   color: #fff;
 }
 
