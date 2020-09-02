@@ -1667,6 +1667,7 @@ section {
   border-top: 1px solid #d630e6;
 etter form input[type="submit"]:hover {
   background: #149f6e;
+  text-align: center;
 }
 
 #footer .copyright {
