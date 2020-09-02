@@ -1120,21 +1120,22 @@ section {
 
 .team .member img {
   transition: all ease-in-out 0.4s;
+  width: 59%;
+  height: auto;
 }
 
 .team .member:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .team .member .member-info {
   position: absolute;
-  bottom: -80px;
-  left: 0px;
-  right: 0px;
-  background: rgba(255, 255, 255, 0.9);
+  bottom: -84px;
+  left: 65px;
+  right: 65px;
+  background: linear-gradient(360deg, rgba(243, 245, 247, 0.8) 0%, rgba(223, 227, 230, 0.9) 35%, rgba(243, 245, 247, 0.8) 100%);
   padding: 15px 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 .team .member h4 {
