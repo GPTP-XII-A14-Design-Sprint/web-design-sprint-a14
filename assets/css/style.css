@@ -1570,7 +1570,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e710cb;
+  background: #ed1260;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1582,7 +1582,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #f109de;
+  background: #ed1260;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
@@ -1704,7 +1704,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #d630e6;
+  border-top: 1px solid rgb(209, 193, 196);
 etter form input[type="submit"]:hover {
   background: #149f6e;
   text-align: center;
