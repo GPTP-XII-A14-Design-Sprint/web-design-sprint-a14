@@ -1168,9 +1168,14 @@ section {
   margin-top: 10px;
 }
 
-.team .member .social a {
+.team .member .social .icofont-instagram {
   transition: color 0.3s;
-  color: #e710d5;
+  color: #d90b6e;
+}
+
+.team .member .social .icofont-linkedin {
+  transition: color 0.3s;
+  color: #507ed9;
 }
 
 .team .member .social a:hover {
