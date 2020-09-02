@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #ee0cbd;
+  color:#e81531;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #ee0cbd;
+  color:#e81531;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(241, 37, 180, 0.91);
+  background: #ed1260;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -637,7 +637,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #630ccc;
+  color: #e81531;
 }
 
 /*--------------------------------------------------------------
@@ -710,7 +710,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #630ccc;
+  color: #e81531;
   margin-bottom: 15px;
 }
 
@@ -893,7 +893,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #e929d9;
+  color: #718096;
   transition: ease-in-out 0.3s;
 }
 
@@ -937,7 +937,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #f311cd;
+  color: #e81531;
 }
 
 .counts .count-box p {
@@ -957,7 +957,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #f311cd;
+  color: #e81531;
 }
 
 .details .content ul {
