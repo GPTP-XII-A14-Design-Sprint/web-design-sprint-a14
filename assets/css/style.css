@@ -637,7 +637,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #e91ebd;
+  color: #630ccc;
 }
 
 /*--------------------------------------------------------------
@@ -710,7 +710,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #e714d6;
+  color: #630ccc;
   margin-bottom: 15px;
 }
 
@@ -1141,7 +1141,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #e403e4;
+  color: #15034f;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1152,7 +1152,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #e403e4;
+  background: #15034f;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1161,16 +1161,21 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #e90ee9;
+  color: #15034f;
 }
 
 .team .member .social {
   margin-top: 10px;
 }
 
-.team .member .social a {
+.team .member .social .icofont-instagram {
   transition: color 0.3s;
-  color: #e710d5;
+  color: #d90b6e;
+}
+
+.team .member .social .icofont-linkedin {
+  transition: color 0.3s;
+  color: #507ed9;
 }
 
 .team .member .social a:hover {
@@ -1380,9 +1385,37 @@ section {
   background: #fff;
 }
 
-.contact .info i {
+.contact .info .icofont-google-map{
   font-size: 20px;
-  color: #a8008c;
+  color: #cc0c29;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .icofont-envelope{
+  font-size: 20px;
+  color: #360ccc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .icofont-phone{
+  font-size: 20px;
+  color: #0ec91b;
   float: left;
   width: 44px;
   height: 44px;
@@ -1399,14 +1432,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #f31ae8;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #eb14d9;
+  color: #000000;
 }
 
 .contact .info .email, .contact .info .phone {
