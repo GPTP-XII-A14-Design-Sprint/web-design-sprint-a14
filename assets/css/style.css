@@ -1454,7 +1454,17 @@ section {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i {
+  background: #360ccc;
+  color: #fff;
+}
+
+.contact .info .address:hover i {
+  background: #cc0c29;
+  color: #fff;
+}
+
+.contact .info .phone:hover i {
   background: #1acc8d;
   color: #fff;
 }
