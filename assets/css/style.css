@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 25px;
-  background-color: #1acc8d;
+  background-color: rgba(247, 232, 232, 0.85);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
