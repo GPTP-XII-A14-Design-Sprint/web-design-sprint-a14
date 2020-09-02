@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(243, 4, 136, 0.9);
+  background: #ed1260;
 }
 
 #header.header-transparent {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(248, 6, 139, 0.9);
+  background: #ed1260;
   height: 60px;
 }
 
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #ee0cbd;
+  color:#e81531;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #ee0cbd;
+  color:#e81531;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(241, 37, 180, 0.91);
+  background: #ed1260;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -637,7 +637,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #630ccc;
+  color: #e81531;
 }
 
 /*--------------------------------------------------------------
@@ -710,7 +710,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #630ccc;
+  color: #e81531;
   margin-bottom: 15px;
 }
 
@@ -893,12 +893,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #e929d9;
+  color: #718096;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #e91fc7;
+  color: #ed1260;
 }
 
 .features .icon-box:hover {
@@ -937,7 +937,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #f311cd;
+  color: #e81531;
 }
 
 .counts .count-box p {
@@ -957,7 +957,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #f311cd;
+  color: #e81531;
 }
 
 .details .content ul {
@@ -1014,7 +1014,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(252, 94, 226, 0.74);
+  background: rgba(237, 18, 96, 0.75);
 }
 
 .testimonials .section-header {
@@ -1197,7 +1197,7 @@ section {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .pricing h3 {
@@ -1570,7 +1570,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e710cb;
+  background: #ed1260;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1582,7 +1582,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #f109de;
+  background: #ed1260;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
@@ -1704,7 +1704,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #d630e6;
+  border-top: 1px solid rgb(209, 193, 196);
 etter form input[type="submit"]:hover {
   background: #149f6e;
   text-align: center;
