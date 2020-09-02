@@ -1711,15 +1711,19 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #149f6e;
-}
-
-#footer .copyright {
-  border-top: 1px solid rgb(209, 193, 196);
-etter form input[type="submit"]:hover {
-  background: #149f6e;
+  background: #ed1260;
   text-align: center;
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid rgb(209, 193, 196);
+  background: #ed1260;
+  font-size: 16px;
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+
+#footer .credits {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
