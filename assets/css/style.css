@@ -91,13 +91,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #1acc8d;
+  background: rgba(255, 14, 14,0.85);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: rgba(245, 69, 69, 0.829);
   color: #fff;
 }
 
@@ -1543,7 +1543,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1acc8d;
+  background: rgba(255, 14, 14,0.85);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1552,7 +1552,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #34e5a6;
+  background: rgba(245, 69, 69, 0.829);
 }
 
 .contact .map {
@@ -1581,7 +1581,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ed1260;
+  background: rgb(70, 64, 65);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1704,20 +1704,20 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1acc8d;
+  background: rgba(255, 14, 14,0.85);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #ed1260;
+  background: rgba(245, 69, 69, 0.829);
   text-align: center;
 }
 
 #footer .copyright {
   border-top: 1px solid rgb(209, 193, 196);
-  background: #ed1260;
+  background: rgb(70, 64, 65);
   font-size: 16px;
   padding: 25px 0 0 0;
   text-align: center;
