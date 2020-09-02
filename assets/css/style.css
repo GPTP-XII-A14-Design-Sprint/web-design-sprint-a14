@@ -1432,14 +1432,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #f31ae8;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #eb14d9;
+  color: #000000;
 }
 
 .contact .info .email, .contact .info .phone {
