@@ -1385,9 +1385,37 @@ section {
   background: #fff;
 }
 
-.contact .info i {
+.contact .info .icofont-google-map{
   font-size: 20px;
-  color: #a8008c;
+  color: #cc0c29;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .icofont-envelope{
+  font-size: 20px;
+  color: #360ccc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .icofont-phone{
+  font-size: 20px;
+  color: #0ec91b;
   float: left;
   width: 44px;
   height: 44px;
