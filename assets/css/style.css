@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #1acc8d;
+  color: #ed1260;
 }
 
 a:hover {
-  color: #34e5a6;
+  color: rgb(252, 175, 175);
   text-decoration: none;
 }
 
@@ -893,7 +893,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #718096;
+  color: rgba(69, 75, 82, 0.89);
   transition: ease-in-out 0.3s;
 }
 
@@ -908,8 +908,8 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
-  background: #f5f5ff;
+/* .counts { */
+  /* background: #f5f5ff;
   padding: 70px 0 60px;
 }
 
@@ -944,9 +944,71 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 14px; */
+/* } */
+
+/* Challenges */
+.challenges {
+  padding: 20px 0 0 0;
+}
+.challenges .icon-boxes h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(232, 21, 49, 0.75);
+  margin-bottom: 15px;
 }
 
+.challenges .icon-box {
+  margin-top: 40px;
+}
+
+.challenges .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid rgba(232, 21, 49, 0.5);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.challenges .icon-box .icon i {
+  color: rgba(232, 21, 49, 0.75);
+  font-size: 32px;
+}
+
+.challenges .icon-box:hover .icon {
+  background: rgba(243, 19, 49, 0.822);
+  border-color: rgba(241, 47, 73, 0.75);
+}
+
+.challenges .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.challenges .icon-box .title {
+  margin-left: 85px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.challenges .icon-box .title a {
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.challenges .icon-box .title a:hover {
+  color: #ed1260;
+}
+
+.challenges .icon-box .description {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
@@ -972,7 +1034,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: rgba(232, 21, 49, 0.993);
 }
 
 .details .content p:last-child {
@@ -1106,6 +1168,15 @@ section {
 .team {
   background: #fff;
 }
+
+/* .team .pos {
+  display: grid; 
+  grid-template-columns: auto auto auto; 
+  grid-row-gap: 20px; 
+  grid-column-gap: 0px; 
+  background-color: rgb(255, 255, 255); 
+  padding: 30px; 
+} */
 
 .team .member {
   text-align: center;
@@ -1588,16 +1659,12 @@ section {
 }
 
 #footer .footer-top {
+  background: rgb(70, 64, 65);
   padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 15px;
-  background: #ed1260;
-  color: #fff;
-  border-top: 4px solid #1acc8d;
-  text-align: center;
-  padding: 30px 20px;
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1609,10 +1676,11 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
@@ -1630,7 +1698,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #ed1260;
   color: #fff;
   text-decoration: none;
 }
@@ -1655,7 +1723,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #ed1260;
   font-size: 18px;
   line-height: 1;
 }
@@ -1678,7 +1746,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #4be8b0;
+  color: rgb(252, 175, 175);
 }
 
 #footer .footer-top .footer-newsletter form {
