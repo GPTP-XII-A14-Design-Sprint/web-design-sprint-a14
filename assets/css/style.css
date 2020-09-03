@@ -1107,14 +1107,14 @@ section {
   background: #fff;
 }
 
-.team .pos {
+/* .team .pos {
   display: grid; 
   grid-template-columns: auto auto auto; 
   grid-row-gap: 20px; 
   grid-column-gap: 0px; 
   background-color: rgb(255, 255, 255); 
   padding: 30px; 
-}
+} */
 
 .team .member {
   text-align: center;
