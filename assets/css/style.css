@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #1acc8d;
+  color: #ed1260;
 }
 
 a:hover {
-  color: #34e5a6;
+  color: rgb(252, 175, 175);
   text-decoration: none;
 }
 
@@ -1636,7 +1636,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #ed1260;
   color: #fff;
   text-decoration: none;
 }
@@ -1661,7 +1661,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #ed1260;
   font-size: 18px;
   line-height: 1;
 }
@@ -1684,7 +1684,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #4be8b0;
+  color: rgb(252, 175, 175);
 }
 
 #footer .footer-top .footer-newsletter form {
