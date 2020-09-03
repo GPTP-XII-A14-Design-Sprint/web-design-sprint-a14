@@ -626,7 +626,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: rgba(232, 21, 49, 0.75);
   margin: 4px 10px;
 }
 
