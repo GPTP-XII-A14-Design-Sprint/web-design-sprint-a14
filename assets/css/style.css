@@ -972,7 +972,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: rgba(232, 21, 49, 0.993);
 }
 
 .details .content p:last-child {
