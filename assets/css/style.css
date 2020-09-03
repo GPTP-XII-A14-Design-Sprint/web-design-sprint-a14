@@ -893,7 +893,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #718096;
+  color: rgba(69, 75, 82, 0.89);
   transition: ease-in-out 0.3s;
 }
 
@@ -1597,16 +1597,12 @@ section {
 }
 
 #footer .footer-top {
+  background: rgb(70, 64, 65);
   padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 15px;
-  background: #ed1260;
-  color: #fff;
-  border-top: 4px solid #1acc8d;
-  text-align: center;
-  padding: 30px 20px;
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1618,10 +1614,11 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
