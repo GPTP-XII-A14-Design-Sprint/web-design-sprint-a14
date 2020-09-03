@@ -1184,6 +1184,27 @@ section {
   position: relative;
 }
 
+.team .column {
+  float: left;
+  width: 16%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .team .column {
+    width: 50%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team .column {
+    width: 100%;
+    display: block;
+  }
+}
+
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
@@ -1191,7 +1212,7 @@ section {
 
 .team .member img {
   transition: all ease-in-out 0.4s;
-  width: 59%;
+  width: auto;
   height: auto;
 }
 
@@ -1202,8 +1223,8 @@ section {
 .team .member .member-info {
   position: absolute;
   bottom: -84px;
-  left: 65px;
-  right: 65px;
+  left: 5px;
+  right: 5px;
   background: linear-gradient(360deg, rgba(243, 245, 247, 0.8) 0%, rgba(223, 227, 230, 0.9) 35%, rgba(243, 245, 247, 0.8) 100%);
   padding: 15px 0;
   border-radius: 4px;
