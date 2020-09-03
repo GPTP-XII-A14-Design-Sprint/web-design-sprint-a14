@@ -893,7 +893,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #718096;
+  color: rgba(69, 75, 82, 0.89);
   transition: ease-in-out 0.3s;
 }
 
