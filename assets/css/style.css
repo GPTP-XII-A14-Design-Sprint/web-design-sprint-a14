@@ -626,7 +626,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: rgba(232, 21, 49, 0.75);
   margin: 4px 10px;
 }
 
@@ -725,19 +725,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid rgba(232, 21, 49, 0.5);
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: rgba(232, 21, 49, 0.75);
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: rgba(243, 19, 49, 0.822);
+  border-color: rgba(241, 47, 73, 0.75);
 }
 
 .about .icon-box:hover .icon i {
@@ -757,7 +757,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: #ed1260;
 }
 
 .about .icon-box .description {
